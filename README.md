@@ -1,4 +1,4 @@
-# Touring Band Ticket Purchase Form -- ActBlue Take Home Project
+# Touring Band Ticket Purchase Form
 
 This is a React-based web form for purchasing concert tickets for various bands. The application allows users to select a band, view their concert information, choose ticket quantities, enter payment details, and simulate a ticket purchase.
 
