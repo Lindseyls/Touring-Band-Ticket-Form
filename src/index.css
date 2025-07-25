@@ -1,0 +1,257 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app {
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+
+/* BandTicketForm */
+
+.band-ticket-form-container {
+  padding: 2rem 0;
+}
+
+.band-header {
+  margin-bottom: 2rem;
+}
+
+.band-title-select {
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.band-title-select:hover,
+.band-title-select:focus {
+  outline: none;
+}
+
+.date,
+.location {
+  align-items: center;
+  color: #808080;
+  display: flex;
+  gap: 6px;
+}
+
+.date-icon,
+.location-icon {
+  flex-shrink: 0;
+  font-size: 1.5em;
+}
+
+.band-columns {
+  align-items: flex-start;
+  color: #808080;
+  display: flex;
+}
+
+.band-info-column {
+  max-width: 550px;
+}
+
+.band-info-column,
+.ticket-form-column {
+  flex: 1;
+}
+
+
+/* BandInfo */
+
+.band-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.band-image {
+  border-radius: 0.5rem;
+  height: auto;
+  max-height: 300px;
+  min-width: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.band-description {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+/* TicketForm */
+
+.ticket-form {
+  background-color: #f7f8fa;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 0 2rem;
+  padding: 1rem;
+}
+
+.ticket-form-title {
+  color: #2d2727;
+  font-weight: bold;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+.purchase-button {
+  background-color: #484b4e;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+  padding: 1rem 1.5rem;
+}
+
+.purchase-button:hover {
+  background-color: #0056b3;
+}
+
+
+/* TicketType */
+
+.ticket-type {
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.ticket-type-info {
+  flex-grow: 1;
+}
+
+.ticket-type-info h3 {
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+
+.ticket-description {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.ticket-price {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.ticket-input {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 1rem;
+  padding: 0.3rem;
+  text-align: center;
+  width: 70px;
+}
+
+.ticket-input:focus {
+  outline: none;
+  border-color: #ff6600;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+/* TotalAmount */
+
+.total-amount {
+  align-items: center;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: normal;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.total-amount h3 {
+  font-weight: unset;
+  margin: 0;
+}
+
+
+/* PaymentForm */
+
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0 0.5rem;
+}
+
+.name-fields {
+  display: flex;
+  gap: 0.5rem;
+  height: 50px;
+}
+
+.name-fields input {
+  flex: 1;
+  min-width: 0;
+}
+
+.payment-input-address {
+  height: 48px;
+}
+
+.payment-form h4 {
+  color: #2d2727;
+  margin: 0.5rem 0 0 0;
+}
+
+.card-input-with-icon {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.card-input-with-icon input {
+  height: 48px;
+  padding-right: 2.5rem;
+  width: 100%;
+}
+
+.card-icon {
+  font-size: 1.3rem;
+  pointer-events: none;
+  position: absolute;
+  right: 0.75rem;
+}
+
+.card-details {
+  display: flex;
+  gap: 0.5rem;
+  height: 50px;
+}
+
+.card-details input {
+  flex: 1;
+  min-width: 0;
+}
