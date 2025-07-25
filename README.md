@@ -6,7 +6,7 @@ This is a React-based web form for purchasing concert tickets for various bands.
 
 ## How to Run Locally
 
-1. Clone the repository: `git clone https://github.com/your-username/touring-band-ticket-form.git`
+1. Clone the repository: `git clone https://github.com/Lindseyls/Touring-Band-Ticket-Form.git`
 2. Install deps: `npm install`
 3. Start app: `npm start`
 
@@ -21,6 +21,7 @@ The app will open at `http://localhost:3000`.
 
 ### Before:
 
+```text
 src/
 |-- band-json/
 | |-- kpop-band.json
@@ -30,9 +31,11 @@ src/
 |-- BandForm.js
 |-- index.css
 |-- index.js
+```
 
 ### After/Current:
 
+```text
 src/
 |-- band-json/
 | |-- kpop-band.json
@@ -48,6 +51,7 @@ src/
 |-- App.js # Entry point. Loads one band and passes it to BandTicketForm
 |-- index.css
 |-- index.js
+```
 
 ## Features
 
